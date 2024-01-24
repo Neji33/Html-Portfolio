@@ -1,0 +1,19 @@
+function myfunc(x,y)
+{
+  return 1+(x*y)/2
+  console.log("Done");
+  
+}
+let a = 2;
+let b = 10;
+console.log("The Answer to the question is ",myfunc(a,b))
+
+let obj = {
+  navya: 98,
+  rohan:  90,
+  aakarsh: 80,
+}
+for( a  in  obj){
+  console.log("The Marks of" +  a  + "are" + obj[a])
+  
+}
